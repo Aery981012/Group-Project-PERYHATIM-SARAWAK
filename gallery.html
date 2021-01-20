@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<title>Gallery</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #122628;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #3B945E;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #182628;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: #65CCB8;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position:relative;
+}
+
+.galleryslides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+	<h1><image src="images/PERIYATIIM image header.png" alt="periyatim Image Header"width=1500 height=400></h1>
+</header>
+  
+</div>
+
+<div class="topnav">
+  	<a href="index.html" style="font-family:Bungee inline""color:#182628;">Home</a>
+ 	<a href="objective.html" style="font-family:Bungee inline""color:#182628;">Objective</a>
+  	<a href="missionvision.html"style="font-family:Bungee inline""color:#182628;">Mission & Vision</a>
+	<a href="organizationalchart.html"style="font-family:Bungee inline""color:#182628;">Organization Chart</a>
+	<a href="history.html"style="font-family:Bungee inline""color:#182628;" class="active">History</a>
+	<a href="bulletin2.html"style="font-family:Bungee inline""color:#182628;">Bulletin & Activities</a>
+	<a href="location.html"style="font-family:Bungee inline""color:#182628;">Location</a>
+	<a href="branch.html"style="font-family:Bungee inline""color:#182628;">Branch</a>
+	<a href="gallery.html"style="font-family:Bungee inline""color:#182628;">Gallery</a>
+	<a href="contactform.html"style="font-family:Bungee inline""color:#182628;">Contact Form</a>
+
+
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Gallery</h2>
+	
+<div class="container">
+	<div class="galleryslides">
+	<div class="numbertext">1/9</div>
+	<img src="images/peryatim-1.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">2/9</div>
+	<img src="images/peryatim-2.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">3/9</div>
+	<img src="images/peryatim-3.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">4/9</div>
+	<img src="images/peryatim-4.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">5/9</div>
+	<img src="images/peryatim-5.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">6/9</div>
+	<img src="images/peryatim-6.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">7/9</div>
+	<img src="images/peryatim-7.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">8/9</div>
+	<img src="images/peryatim-8.jpg" style="width:100%">
+	</div>
+	<div class="galleryslides">
+	<div class="numbertext">9/9</div>
+	<img src="images/peryatim-9.jpg" style="width:100%">
+	</div>
+
+	
+	<a class="prev" onclick="plusSlides(-1)"> < </a>
+	<a class="next" onclick="plusSlides(1)"> > </a>
+		  
+	</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("galleryslides");
+	var dots = document.getElementsByClassName("demo");
+	var captionText = document.getElementById("caption");
+	if (n > slides.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = slides.length}
+	for (i = 0; i < slides.length; i++) {
+	slides[i].style.display = "none";
+	}	
+	for (i = 0; i < dots.length; i++) {
+	dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active";
+	captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+  </div>
+  </div>
+  <div class="rightcolumn">
+   	<div class="card">
+      <h3>Buletin Post</h3>
+      <div class="fakeimg"><img src="images/buletin1.jpg" style="width:100%"><br><center>Nasyid</center></div>
+      <div class="fakeimg"><img src="images/buletin2.jpg" style="width:100%"><br><center> Mass lectures</center></div>
+      
+</div>
+
+<div class="card">
+      	<h3>About Us</h3>
+<a href="aboutus.html">Know us<a/>
+</div>
+
+<div class="card">
+      	<h3>Follow Me</h3>
+    	<a href="https://web.facebook.com/KKLTKuching" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/peryatim.sarawak/" class="fa fa-instagram"></a>
+</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Designed by Aery Garney,
+Nur Haziqah,
+Noor Hafizah &
+Muhammad Ridhwan.</p>
+  <p> Disclaimer: <i> This website is not the official website of PERYATIM SARAWAK</i></p> 
+<a href="aboutus.html">Know us<a/>
+</div>
+
+</body>
+</html>
